@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "sqlc@1.26.0",
+    "atlas@0.25.0",
+    "dotenv-cli@7.4.3",
+    "go@1.22.5"
+  ],
+  "env": {
+    "GOENV": "off"
+  },
+  "shell": {
+    "init_hook": [
+      "cp -n .env.example .env 2>/dev/null"
+    ],
+    "scripts": {
+      "start_db":               "docker-compose -p ama -f database/docker-compose.yaml --env-file .env up -d",
+      "stop_db":                "docker-compose -p ama -f database/docker-compose.yaml --env-file .env down",
+      "generate_code_from_sql": "sqlc generate --file database/sqlc.yaml",
+      "migrations":             "dotenv -- atlas schema apply --config \"file://database/atlas.hcl\" --env local"
+    }
+  }
+}

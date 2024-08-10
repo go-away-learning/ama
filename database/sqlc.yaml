@@ -1,0 +1,16 @@
+version: "2"
+sql:
+  - engine: postgresql
+    queries: ../database/queries.sql
+    schema: ../database/schema.sql
+    gen:
+      go:
+        package: database
+        out: ../internal/database
+        output_db_file_name: database.go
+        sql_package: pgx/v5
+        overrides:
+          - db_type: UUID
+            go_type:
+              import: github.com/google/uuid
+              type: UUID

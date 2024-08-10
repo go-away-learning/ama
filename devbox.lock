@@ -1,0 +1,197 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "atlas@0.25.0": {
+      "last_modified": "2024-07-20T09:11:00Z",
+      "resolved": "github:NixOS/nixpkgs/6e14bbce7bea6c4efd7adfa88a40dac750d80100#atlas",
+      "source": "devbox-search",
+      "version": "0.25.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/alww86nc17n1w38bzi7aqc9mj8vndq6k-atlas-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/alww86nc17n1w38bzi7aqc9mj8vndq6k-atlas-0.25.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yx1rm9qi2lyxkzkv8d3fjrx8lvlhmzk3-atlas-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yx1rm9qi2lyxkzkv8d3fjrx8lvlhmzk3-atlas-0.25.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nfqq33r50vsbcy5yldr9wi5q7ja4li2g-atlas-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nfqq33r50vsbcy5yldr9wi5q7ja4li2g-atlas-0.25.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dwg2czmjd1lskiqxak8nbwml9dv1dwcb-atlas-0.25.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dwg2czmjd1lskiqxak8nbwml9dv1dwcb-atlas-0.25.0"
+        }
+      }
+    },
+    "dotenv-cli@7.4.3": {
+      "last_modified": "2024-08-04T00:20:25Z",
+      "resolved": "github:NixOS/nixpkgs/f3834de3782b82bfc666abf664f946d0e7d1f116#dotenv-cli",
+      "source": "devbox-search",
+      "version": "7.4.3",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xmncs7gy06357bcpkxd5cfxqd19iclrq-dotenv-cli-7.4.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xmncs7gy06357bcpkxd5cfxqd19iclrq-dotenv-cli-7.4.3"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j1s79mvgdz4bmrba051zxz0wqrl9l1ly-dotenv-cli-7.4.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j1s79mvgdz4bmrba051zxz0wqrl9l1ly-dotenv-cli-7.4.3"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v2i08vs6s2pw2hh5lz3838d4cwk06mr6-dotenv-cli-7.4.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v2i08vs6s2pw2hh5lz3838d4cwk06mr6-dotenv-cli-7.4.3"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6w9ipbwp6d48f8s1nwmf0zh8js64r9mc-dotenv-cli-7.4.3",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6w9ipbwp6d48f8s1nwmf0zh8js64r9mc-dotenv-cli-7.4.3"
+        }
+      }
+    },
+    "go@1.22.5": {
+      "last_modified": "2024-07-20T09:11:00Z",
+      "resolved": "github:NixOS/nixpkgs/6e14bbce7bea6c4efd7adfa88a40dac750d80100#go",
+      "source": "devbox-search",
+      "version": "1.22.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/05saqcgidraqmn4z82prsp7rbj9hjmwm-go-1.22.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/05saqcgidraqmn4z82prsp7rbj9hjmwm-go-1.22.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/b97bbxn6kpysysxb8nxn4k39ffxmp4p6-go-1.22.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/b97bbxn6kpysysxb8nxn4k39ffxmp4p6-go-1.22.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gdyii59c48s4a8q6w584ccgm95qls3lh-go-1.22.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gdyii59c48s4a8q6w584ccgm95qls3lh-go-1.22.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3v17dij8rvg7q99009swxg52995r7s22-go-1.22.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/3v17dij8rvg7q99009swxg52995r7s22-go-1.22.5"
+        }
+      }
+    },
+    "sqlc@1.26.0": {
+      "last_modified": "2024-07-20T09:11:00Z",
+      "resolved": "github:NixOS/nixpkgs/6e14bbce7bea6c4efd7adfa88a40dac750d80100#sqlc",
+      "source": "devbox-search",
+      "version": "1.26.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/da4bxkk0grsj6pzx9z15ycshsbrq38cd-sqlc-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/da4bxkk0grsj6pzx9z15ycshsbrq38cd-sqlc-1.26.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j793mdysq8by9hsvnnw1fxswxdz2az3f-sqlc-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j793mdysq8by9hsvnnw1fxswxdz2az3f-sqlc-1.26.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/27mdla09qdlrl4lbr0vdivxy77b2cndd-sqlc-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/27mdla09qdlrl4lbr0vdivxy77b2cndd-sqlc-1.26.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/g1sknqzbg9sn09fwff5v80j57waay71r-sqlc-1.26.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/g1sknqzbg9sn09fwff5v80j57waay71r-sqlc-1.26.0"
+        }
+      }
+    }
+  }
+}
